@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-07-12T22:56:33.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="aojQ_6UtXSaBjyn7X1PP" version="24.4.0" type="device">
+  <diagram name="Page-1" id="dIKg5mQOadSHR85N_kXl">
+    <mxGraphModel dx="1213" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fEOLpChu80_UL_0jnK_X-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="fEOLpChu80_UL_0jnK_X-1" target="fEOLpChu80_UL_0jnK_X-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-2" value="Local Development" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="fEOLpChu80_UL_0jnK_X-3" target="fEOLpChu80_UL_0jnK_X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;local laptop IDE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#000000;shape=mxgraph.azure.laptop;pointerEvents=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="185.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="fEOLpChu80_UL_0jnK_X-5" target="fEOLpChu80_UL_0jnK_X-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;docker compose test&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="fEOLpChu80_UL_0jnK_X-7" target="fEOLpChu80_UL_0jnK_X-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-8" value="GitHub CI" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-9" value="GitHub Actions - Running Tests" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/G/github-actions-logo-031704BDC6-seeklogo.com.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="690" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-13" value="Databricks / Pyspark Platform" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;dev workspace&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1000" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;stg workspace&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1230" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1600" y="120" width="50" height="54.14" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;prd workspace&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1450" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Databricks.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="181" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-21" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Databricks.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1330" y="180" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fEOLpChu80_UL_0jnK_X-22" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Databricks.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1550" y="182" width="50" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

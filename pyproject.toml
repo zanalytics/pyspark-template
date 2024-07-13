@@ -1,0 +1,72 @@
+[tool.poetry]
+name = "pyspark-template"
+version = "0.1.0"
+description = ""
+authors = ["chris <chrispen@zanalytics.io>"]
+readme = "README.md"
+packages = [{include = "pyspark_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyspark = "3.5.1"
+delta-spark = "3.1.0"
+requests = "^2.31.0"
+loguru = "^0.7.2"
+pydantic = "^2.6.4"
+ruff = "^0.4.10"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+hypothesis = "^6.70.1"
+ipykernel = "^6.25.1"
+mypy = "^1.1.1"
+pre-commit = "^3.2.1"
+pytest = "^7.2.2"
+ruff = "^0.4.10"
+
+
+[tool.poetry.group.data-analysis.dependencies]
+duckdb = "^0.10.3"
+jupyter = "^1.0.0"
+
+[tool.ruff]
+line-length = 79
+lint.select = ["ALL"]
+lint.ignore = [
+    "ANN101",  # Missing type annotation for self in method is allowed
+    "ANN102",  # Missing type annotation for cls in classmethod is allowed
+    "C901",    # High McCabe complexity is allowed
+    "D100",    # Missing docstring in public module is allowed
+    "D104",    # Missing docstring in public package is allowed
+    "D105",    # Missing docstring in magic method is allowed
+    "D106",    # Missing docstring in public nested class is allowed
+    "D203",    # 1 blank line required before class docstring is allowed
+    "D213",    # Multi-line docstring summary should start at the second line is allowed
+    "D406",    # Section name should end with a newline is allowed
+    "D407",    # Missing dashed underline after section is allowed
+    "D417",    # Missing argument descriptions in the docstring is allowed
+    "E712",    # Comparison to boolean with == or != is allowed
+    "FA102",   # Using of future annotations is not required
+    "FIX002",  # Todo comments are allowed
+    "PERF203", # try/except in a loop is allowed
+    "PLR0912", # More than 12 if-elif-else branches is allowed
+    "PLR0915", # Too many return statements is allowed
+    "SIM105",  # Using contextlib.suppress instead of try/except is not required
+    "TRY003",  # Exception message defined outside of exception class is allowed
+    "TD002",   # Missing todo author is allowed
+    "TD003",   # Missing issue link in todo is allowed
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = [
+    "ANN001",  # Missing type annotation for function arguments is allowed
+    "ANN201",  # Missing return type annotation for public function is allowed
+    "ARG001",  # Unused function arguments are allowed
+    "PLR0913", # Too many arguments in function definition is allowed
+    "PLR2004", # Magic number comparisons are allowed
+    "S101",    # Asserts are allowed
+]
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"

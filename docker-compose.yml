@@ -1,0 +1,18 @@
+services:
+  test:
+    environment:
+      - PYTHONPATH=./src
+      - JUPYTER_PLATFORM_DIRS=1
+    image: pyspark-dev-environment
+    volumes:
+      - .:/app
+    command: python -m pytest
+
+  dev:
+    environment:
+      - PYTHONPATH=.
+      - JUPYTER_PLATFORM_DIRS=1
+    image: pyspark-dev-environment
+    volumes:
+      - .:/app
+    command: python pyspark_template/config/spark_session.py

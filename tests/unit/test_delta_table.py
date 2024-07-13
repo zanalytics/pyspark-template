@@ -1,5 +1,4 @@
 import tempfile
-from pathlib import Path
 
 from delta import DeltaTable
 from pyspark.sql.functions import col, lit
@@ -10,7 +9,7 @@ def test_delta_table_operations(spark_session):
     spark = spark_session
     # Create a temporary directory
     with (tempfile.TemporaryDirectory() as tmpdir):
-        delta_table_path = Path(tmpdir/"delta_test_table")
+        delta_table_path = f"{tmpdir}/delta_test_table"
 
         # Create a sample DataFrame
         data = [("Alice", 28), ("Bob", 35), ("Charlie", 42)]

@@ -2,12 +2,12 @@
 
 ![pyspark-template.drawio.png](docs/diagrams/pyspark-template.drawio.png)
 
-> Inspiration for this project came from an article I came across on [Developing Production Databricks](https://seattledataguy.substack.com/p/developing-production-databricks).
+> Inspiration for this project came from an article I came across on [Developing Production Databricks](https://seattledataguy.substack.com/p/developing-production-databricks) by [Daniel Beach](https://substack.com/@dataengineeringcentral)
 > This repository adds delta table support but also approaches this differently.
 
-This repository serves as a starter template to enable local development for your Databricks projects, eliminating the need to spin up a Databricks cluster each time you develop.
+This repository serves as a **"starter template"** to enable local development for your Databricks projects, eliminating the need to spin up a Databricks cluster each time you develop.
 
-An LLM was used to generate tests ensuring that PySpark and Delta tables are working as expected. Follow the steps below to get started with this repository.
+An LLM was used to generate tests to check that PySpark and Delta tables are working as expected. Follow the steps below to get started with this repository.
 
 ## Prerequisites
 

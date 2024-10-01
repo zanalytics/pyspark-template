@@ -1,5 +1,5 @@
 # Arguments for versioning
-ARG SPARK_VERSION=3.5.1
+ARG SPARK_VERSION=3.5.3
 ARG PYTHON_VERSION=3.11
 ARG DELTA_SPARK_VERSION=3.2.0
 ARG POETRY_VERSION=1.3.1
@@ -9,7 +9,7 @@ ARG FUNCTION_DIR="app"
 # Spark Base Image
 ###############################################
 FROM debian:bullseye-slim AS spark-base
-ARG SPARK_VERSION=3.5.1
+ARG SPARK_VERSION=3.5.3
 # Install Java and other dependencies
 RUN apt-get update && apt-get install -y \
     openjdk-11-jre-headless \
@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Download and install Spark
-RUN curl -O https://downloads.apache.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz \
+RUN curl -O https://archive.apache.org/dist/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop3.tgz \
     && tar -xzf spark-${SPARK_VERSION}-bin-hadoop3.tgz \
     && mv spark-${SPARK_VERSION}-bin-hadoop3 /opt/spark \
     && rm spark-${SPARK_VERSION}-bin-hadoop3.tgz
